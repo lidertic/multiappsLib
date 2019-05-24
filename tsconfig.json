@@ -1,0 +1,50 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "@my-org/some-lib": [
+        "dist/my-org/some-lib"
+      ],
+      "@my-org/some-lib/*": [
+        "dist/my-org/some-lib/*"
+      ],
+      "mas-lib": [
+        "dist/mas-lib",
+        "dist/mas-lib"
+      ],
+      "mas-lib/*": [
+        "dist/mas-lib/*",
+        "dist/mas-lib/*"
+      ],
+      "library": [
+        "dist/library"
+      ],
+      "library/*": [
+        "dist/library/*"
+      ],
+      "@mas/lib1": [
+        "dist/mas/lib1"
+      ],
+      "@mas/lib1/*": [
+        "dist/mas/lib1/*"
+      ]
+    }
+  }
+}
