@@ -8,12 +8,7 @@ const appRoutes: Routes = [
 ];
 
 @NgModule({
-  imports: [
-    RouterModule.forChild(appRoutes, {
-      enableTracing: false, // <-- debugging purposes only
-      useHash: true
-    })
-  ],
+  imports: [RouterModule.forChild(appRoutes)],
   //imports: [RouterModule.forRoot(appRoutes, { enableTracing: false })],
   exports: [RouterModule]
 })
