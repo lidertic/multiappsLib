@@ -29,6 +29,10 @@ const routes: Routes = [
     loadChildren: () => import('@masalbertwork/lib1').then(m => m.Lib1Module)
   },
   {
+    path: 'exemple',
+    loadChildren: './lazy/app-wrapper.module#AppWrapperModule'
+  },
+  {
     path: '**',
     redirectTo: 'home'
   }
