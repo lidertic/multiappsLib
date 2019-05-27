@@ -6,15 +6,13 @@ Check out [live demo](https://tomastrajan.github.io/angular-lazy-lib-demo) and o
 network tab of the developer console of your browser before navigation to the lib route
 to see it being lazy loaded on navigation...
 
-# Afegim via npm (lib) no present
+# Afegim via npm (lib) no present, i afegim una APP sencera:
 
-# i Afegim Una APP sencera via:
+        ng g application exempleApp
 
-    ng g application exempleApp
+després a la app:
 
-    ###
         //import { BrowserModule } from '@angular/platform-browser';
-
         import { NgModule } from '@angular/core';
 
         import { AppComponent } from './app.component';
@@ -31,4 +29,4 @@ to see it being lazy loaded on navigation...
         })
         export class AppModule {}
 
-## treiem //import { BrowserModule } from '@angular/platform-browser';
+treiem //import { BrowserModule } from '@angular/platform-browser';
