@@ -15,11 +15,15 @@ export class AppComponent implements OnInit {
   constructor(private router: Router) {}
 
   ngOnInit() {
-    const posicio = this.router.url.slice(1).indexOf('/');
-    const rutaInicial = this.router.url.substring(0, posicio + 1);
-
-    this.rutaLlista = rutaInicial + '/llista';
-    this.rutaDetall = rutaInicial + '/detall';
+    this.rutaLlista = this.retailRoute(this.router.url) + '/llista';
+    this.rutaDetall = this.retailRoute(this.router.url) + '/detall';
     console.log(this.router.url);
+  }
+
+  /** Rebem la url actual (Router.url) i tornem només la part de la subaplicació */
+  retailRoute(route: string): string {
+    const posicio = route.slice(1).indexOf('/');
+    const rutaInicial = route.substring(0, posicio + 1);
+    return rutaInicial;
   }
 }
