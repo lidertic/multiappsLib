@@ -33,6 +33,10 @@ const routes: Routes = [
     loadChildren: './lazy/app-wrapper.module#AppWrapperModule'
   },
   {
+    path: 'exemplelazy',
+    loadChildren: './lazy/lazy-wrapper.module#LazyWrapperModule'
+  },
+  {
     path: '**',
     redirectTo: 'home'
   }
