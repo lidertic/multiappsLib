@@ -31,9 +31,7 @@
               "projects/my-org/some-lib/tsconfig.lib.json",
               "projects/my-org/some-lib/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -61,9 +59,7 @@
               "projects/some-app/src/favicon.ico",
               "projects/some-app/src/assets"
             ],
-            "styles": [
-              "projects/some-app/src/styles.scss"
-            ],
+            "styles": ["projects/some-app/src/styles.scss"],
             "scripts": [],
             "es5BrowserSupport": true
           },
@@ -118,9 +114,7 @@
             "polyfills": "projects/some-app/src/polyfills.ts",
             "tsConfig": "projects/some-app/tsconfig.spec.json",
             "karmaConfig": "projects/some-app/karma.conf.js",
-            "styles": [
-              "projects/some-app/src/styles.scss"
-            ],
+            "styles": ["projects/some-app/src/styles.scss"],
             "scripts": [],
             "assets": [
               "projects/some-app/src/favicon.ico",
@@ -135,9 +129,7 @@
               "projects/some-app/tsconfig.app.json",
               "projects/some-app/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -163,9 +155,7 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": "projects/some-app-e2e/tsconfig.e2e.json",
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -198,9 +188,7 @@
               "projects/mas-lib/tsconfig.lib.json",
               "projects/mas-lib/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -233,9 +221,7 @@
               "projects/mas/lib1/tsconfig.lib.json",
               "projects/mas/lib1/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -259,9 +245,7 @@
               "projects/exempleApp/src/favicon.ico",
               "projects/exempleApp/src/assets"
             ],
-            "styles": [
-              "projects/exempleApp/src/styles.css"
-            ],
+            "styles": ["projects/exempleApp/src/styles.css"],
             "scripts": [],
             "es5BrowserSupport": true
           },
@@ -316,9 +300,7 @@
             "polyfills": "projects/exempleApp/src/polyfills.ts",
             "tsConfig": "projects/exempleApp/tsconfig.spec.json",
             "karmaConfig": "projects/exempleApp/karma.conf.js",
-            "styles": [
-              "projects/exempleApp/src/styles.css"
-            ],
+            "styles": ["projects/exempleApp/src/styles.css"],
             "scripts": [],
             "assets": [
               "projects/exempleApp/src/favicon.ico",
@@ -333,9 +315,7 @@
               "projects/exempleApp/tsconfig.app.json",
               "projects/exempleApp/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -361,9 +341,7 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": "projects/exempleApp-e2e/tsconfig.e2e.json",
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
